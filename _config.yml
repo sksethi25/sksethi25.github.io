@@ -1,0 +1,41 @@
+# Site settings
+title:          Devbugz
+description:    "bugs that developer faces"
+baseurl:        ""
+url:            "https://devbugz.github.io/"
+
+# Google Analytics
+google_analytics: UA—XXXXXXXX-X
+
+# Author
+author:
+  name:         Sahil Sethi
+  url:          https://sksethi25.github.io
+  email:        sksethi25@gmail.com
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, devbugz.gemspec ]
+
+# Disqus (Set to your disqus id)
+# disqus:         jekyll-devbugz
